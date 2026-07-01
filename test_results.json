@@ -1,0 +1,276 @@
+{
+  "total_turns": 22,
+  "pass": 4,
+  "partial": 11,
+  "fail": 1,
+  "error": 6,
+  "pass_rate_pct": 18.18,
+  "conversations": {
+    "C1.md": [
+      {
+        "turn": 1,
+        "status": "PASS",
+        "eoc_expected": false,
+        "eoc_actual": false,
+        "recs_expected": 0,
+        "recs_actual": 0,
+        "notes": []
+      },
+      {
+        "turn": 2,
+        "status": "PASS",
+        "eoc_expected": false,
+        "eoc_actual": false,
+        "recs_expected": 0,
+        "recs_actual": 0,
+        "notes": []
+      },
+      {
+        "turn": 3,
+        "status": "PARTIAL",
+        "eoc_expected": false,
+        "eoc_actual": false,
+        "recs_expected": 3,
+        "recs_actual": 3,
+        "notes": [
+          "MISSING_REC: Occupational Personality Questionnaire OPQ32r",
+          "MISSING_REC: OPQ Universal Competency Report 2.0"
+        ]
+      },
+      {
+        "turn": 4,
+        "status": "PARTIAL",
+        "eoc_expected": true,
+        "eoc_actual": true,
+        "recs_expected": 3,
+        "recs_actual": 3,
+        "notes": [
+          "MISSING_REC: Occupational Personality Questionnaire OPQ32r",
+          "MISSING_REC: OPQ Universal Competency Report 2.0"
+        ]
+      }
+    ],
+    "C10.md": [
+      {
+        "turn": 1,
+        "status": "PARTIAL",
+        "eoc_expected": false,
+        "eoc_actual": false,
+        "recs_expected": 3,
+        "recs_actual": 3,
+        "notes": [
+          "MISSING_REC: Occupational Personality Questionnaire OPQ32r"
+        ]
+      },
+      {
+        "turn": 2,
+        "status": "PASS",
+        "eoc_expected": false,
+        "eoc_actual": false,
+        "recs_expected": 0,
+        "recs_actual": 0,
+        "notes": []
+      },
+      {
+        "turn": 4,
+        "status": "FAIL",
+        "eoc_expected": true,
+        "eoc_actual": false,
+        "recs_expected": 2,
+        "recs_actual": 2,
+        "notes": [
+          "MISSING_REC: SHL Verify Interactive G+",
+          "EOC_MISMATCH: expected=True actual=False"
+        ]
+      }
+    ],
+    "C2.md": [
+      {
+        "turn": 1,
+        "status": "PARTIAL",
+        "eoc_expected": false,
+        "eoc_actual": false,
+        "recs_expected": 0,
+        "recs_actual": 4,
+        "notes": [
+          "UNEXPECTED_RECS: Got 4 recs when none expected"
+        ]
+      },
+      {
+        "turn": 2,
+        "status": "PARTIAL",
+        "eoc_expected": false,
+        "eoc_actual": false,
+        "recs_expected": 5,
+        "recs_actual": 6,
+        "notes": [
+          "MISSING_REC: Linux Programming (General)",
+          "MISSING_REC: SHL Verify Interactive G+",
+          "MISSING_REC: Occupational Personality Questionnaire OPQ32r"
+        ]
+      },
+      {
+        "turn": 3,
+        "status": "PARTIAL",
+        "eoc_expected": true,
+        "eoc_actual": true,
+        "recs_expected": 5,
+        "recs_actual": 6,
+        "notes": [
+          "MISSING_REC: Linux Programming (General)",
+          "MISSING_REC: SHL Verify Interactive G+",
+          "MISSING_REC: Occupational Personality Questionnaire OPQ32r"
+        ]
+      }
+    ],
+    "C3.md": [
+      {
+        "turn": 1,
+        "status": "PARTIAL",
+        "eoc_expected": false,
+        "eoc_actual": false,
+        "recs_expected": 0,
+        "recs_actual": 4,
+        "notes": [
+          "UNEXPECTED_RECS: Got 4 recs when none expected"
+        ]
+      },
+      {
+        "turn": 2,
+        "status": "PASS",
+        "eoc_expected": false,
+        "eoc_actual": false,
+        "recs_expected": 0,
+        "recs_actual": 0,
+        "notes": []
+      },
+      {
+        "turn": 3,
+        "status": "PARTIAL",
+        "eoc_expected": false,
+        "eoc_actual": false,
+        "recs_expected": 4,
+        "recs_actual": 3,
+        "notes": [
+          "MISSING_REC: Contact Center Call Simulation (New)",
+          "MISSING_REC: Entry Level Customer Serv - Retail & Contact Center",
+          "MISSING_REC: Customer Service Phone Simulation"
+        ]
+      },
+      {
+        "turn": 4,
+        "status": "PARTIAL",
+        "eoc_expected": false,
+        "eoc_actual": false,
+        "recs_expected": 0,
+        "recs_actual": 2,
+        "notes": [
+          "UNEXPECTED_RECS: Got 2 recs when none expected"
+        ]
+      },
+      {
+        "turn": 5,
+        "status": "PARTIAL",
+        "eoc_expected": true,
+        "eoc_actual": true,
+        "recs_expected": 4,
+        "recs_actual": 2,
+        "notes": [
+          "MISSING_REC: SVAR Spoken English (US) (New)",
+          "MISSING_REC: Entry Level Customer Serv - Retail & Contact Center",
+          "MISSING_REC: Customer Service Phone Simulation"
+        ]
+      }
+    ],
+    "C4.md": [
+      {
+        "turn": 1,
+        "status": "PARTIAL",
+        "eoc_expected": false,
+        "eoc_actual": false,
+        "recs_expected": 4,
+        "recs_actual": 3,
+        "notes": [
+          "MISSING_REC: Basic Statistics (New)",
+          "MISSING_REC: Occupational Personality Questionnaire OPQ32r"
+        ]
+      },
+      {
+        "turn": 2,
+        "status": "ERROR",
+        "eoc_expected": false,
+        "eoc_actual": false,
+        "recs_expected": 5,
+        "recs_actual": 0,
+        "notes": [
+          "API_ERROR: HTTP 500: {\"detail\":\"Agent error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: g"
+        ]
+      }
+    ],
+    "C5.md": [
+      {
+        "turn": 1,
+        "status": "ERROR",
+        "eoc_expected": false,
+        "eoc_actual": false,
+        "recs_expected": 5,
+        "recs_actual": 0,
+        "notes": [
+          "API_ERROR: HTTP 500: {\"detail\":\"Agent error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: g"
+        ]
+      }
+    ],
+    "C6.md": [
+      {
+        "turn": 1,
+        "status": "ERROR",
+        "eoc_expected": false,
+        "eoc_actual": false,
+        "recs_expected": 3,
+        "recs_actual": 0,
+        "notes": [
+          "API_ERROR: HTTP 500: {\"detail\":\"Agent error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: g"
+        ]
+      }
+    ],
+    "C7.md": [
+      {
+        "turn": 1,
+        "status": "ERROR",
+        "eoc_expected": false,
+        "eoc_actual": false,
+        "recs_expected": 0,
+        "recs_actual": 0,
+        "notes": [
+          "API_ERROR: HTTP 500: {\"detail\":\"Agent error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: g"
+        ]
+      }
+    ],
+    "C8.md": [
+      {
+        "turn": 1,
+        "status": "ERROR",
+        "eoc_expected": false,
+        "eoc_actual": false,
+        "recs_expected": 3,
+        "recs_actual": 0,
+        "notes": [
+          "API_ERROR: HTTP 500: {\"detail\":\"Agent error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: g"
+        ]
+      }
+    ],
+    "C9.md": [
+      {
+        "turn": 1,
+        "status": "ERROR",
+        "eoc_expected": false,
+        "eoc_actual": false,
+        "recs_expected": 0,
+        "recs_actual": 0,
+        "notes": [
+          "API_ERROR: HTTP 500: {\"detail\":\"Agent error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: g"
+        ]
+      }
+    ]
+  }
+}
