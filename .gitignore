@@ -1,6 +1,30 @@
-﻿.env
-1.py
+﻿# ── Environment & secrets ─────────────────────────────────────────
+.env
+*.env
+
+# ── Python cache ──────────────────────────────────────────────────
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
 .pytest_cache/
+
+# ── Local dev / scratch files ─────────────────────────────────────
+1.py
+
+# ── Build tooling (not needed on Render — chroma_db already built) ─
+build_index.py
+
+# ── Testing scripts (not needed for API to run) ───────────────────
+test_local.py
+test_conversations.py
+test_results.json
+
+# ── Docs (not needed for API runtime) ────────────────────────────
+README.md
+
+# ── OS / IDE ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
